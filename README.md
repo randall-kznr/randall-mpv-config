@@ -77,7 +77,7 @@ This is the real big meat and potatoes. It only loads when you press `f2`, switc
 
 4. Preserves sign typesetting by looking for positioning, movement, clipping, drawing, or rotation tags is switched to an untouched copy of the original style so that it doesn't look weird (in theory. results may vary. works on my machine.)
 
-5. Strips all margins and uses `sub-margin-y` from our `mpv.conf`. This is so if subs are too low or too high, it always brings it to the same level (by default, `sub-margin-y=35`)
+5. Strips all margins and uses `sub-pos` from our `mpv.conf`. This is so if subs are too low or too high, it always brings it to the same level (by default, `sub-pos=99`)
 
 6: Cleans up temp files when the video ends or MPV closes. Leftovers from crashes are wiped the next time mpv starts.
 
