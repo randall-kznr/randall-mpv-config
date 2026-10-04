@@ -67,7 +67,7 @@ You can switch between color, profiles, and original subs quickly and easily.
 
 **NOTE: THIS ONLY WORKS FOR .ASS SUBS.** if your show has SRT or PGS subs because it is old that is on you. eat your veggies.
 
-This is the real big meat and potatoes. It only loads when you press `f2`, switching  This handles the logic with "What do I restyle, and what do I leave alone?" The script:
+This is the real big meat and potatoes. It only loads when you press `f2`, switching `ass-subtitle-override` to `yes`. This handles the logic with "What do I restyle, and what do I leave alone?" The script:
 
 1. Extracts the subs via ffmpeg. **You should have this installed.** It reads from your PATH, so have that set up too.
 - **Note:** If you load your files from a NAS or other local connection, this may take a little bit. For normal tv episodes, it's a couple of seconds, but for movies (8gb+) it'll probably take up to a minute or longer. It really depends on the file size. If you're watching a movie the subtitles are probably good though. The progress of this task is shown in the bottom left of the screen (Very small). If the .ass file is next to the video file, this step is skipped. 
